@@ -81,7 +81,7 @@ ALTER TABLE ONLY mytable ALTER COLUMN id SET DEFAULT nextval('mytable_id_seq'::r
 
 COPY mytable (id, "Nom", "Ville", "Age") FROM stdin;
 1	Rudy	Paris	22
-2	Marc	Versailles	21
+2	Qi	Versailles	24
 3	Paul	Nantes	55
 4	Jean	Lyon	12
 5	Dupont	Rouen	24
