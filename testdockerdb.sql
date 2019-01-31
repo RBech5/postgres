@@ -1,4 +1,5 @@
 CREATE DATABASE mydb;
+\connect mydb;
 
 CREATE TABLE mytable (
     id integer NOT NULL,
