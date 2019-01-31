@@ -1,6 +1,4 @@
-CREATE USER docker;
 CREATE DATABASE mydb;
-GRANT ALL PRIVILEGES ON DATABASE mydb TO docker;
 
 CREATE TABLE mytable (
     id integer NOT NULL,
